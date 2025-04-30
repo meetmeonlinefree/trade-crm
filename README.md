@@ -52,9 +52,9 @@ php artisan serve
 | GET | `/api/product-movements` | Получить историю движений товаров |
 
 ## 🛠️ Технологии
-- Laravel (Lumen или Full Laravel)
+- Laravel
 - PHP
-- MySQL (или другая СУБД)
+- MySQL
 
 ## ✍️ Автор
 [meetmeonlinefree](https://github.com/meetmeonlinefree)
