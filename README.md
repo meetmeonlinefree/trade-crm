@@ -6,7 +6,7 @@ RESTful API для управления складами, товарами, за
 
 1. Клонировать репозиторий
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/meetmeonlinefree/trade-crm.git
 ```
 
 2. Установить зависимости
@@ -29,12 +29,12 @@ php artisan serve
 ### Склады
 | Метод | Маршрут | Описание |
 |-------|---------|----------|
-| GET | `/api/warehouses` | Получить список складов |
+| GET | `http://127.0.0.1:8000/api/warehouses` | Получить список складов |
 
 ### Товары с остатками
 | Метод | Маршрут | Описание |
 |-------|---------|----------|
-| GET | `/api/products-with-stocks` | Получить список товаров с остатками |
+| GET | `http://127.0.0.1:8000/api/products-with-stocks` | Получить список товаров с остатками |
 
 ### Заказы
 | Метод | Маршрут | Описание |
@@ -51,36 +51,13 @@ php artisan serve
 |-------|---------|----------|
 | GET | `/api/product-movements` | Получить историю движений товаров |
 
-## ⚙️ Примеры запросов
-
-### Создание заказа
-```bash
-POST /api/orders
-```
-```json
-{
-  "customer": "John Doe",
-  "warehouse_id": 1,
-  "items": [
-    { "product_id": 2, "count": 3 },
-    { "product_id": 5, "count": 1 }
-  ]
-}
-```
-
-### Завершение заказа
-```bash
-POST /api/orders/1/complete
-```
-
 ## 🛠️ Технологии
 - Laravel (Lumen или Full Laravel)
 - PHP
 - MySQL (или другая СУБД)
 
 ## ✍️ Автор
-[Ваше имя или никнейм](https://github.com/your-username)
+[meetmeonlinefree](https://github.com/meetmeonlinefree)
 
-## 📝 Лицензия
-Этот проект лицензируется под MIT License.
+
 
